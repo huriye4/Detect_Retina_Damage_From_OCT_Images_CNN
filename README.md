@@ -6,7 +6,7 @@ This project aims to detect retina damage from optical coherence tomography (OCT
   - User-designed model architecture tailored for OCT image classification.
 
 - **InceptionV3 Model**:
-  - Pre-trained InceptionV3 architecture used for feature extraction and classification.
+  - Pre-trained InceptionV3 architecture used for OCT image classification.
 
 - **Tuned InceptionV3 Model**:
   - InceptionV3 model fine-tuned on the specific OCT image dataset for optimized performance.
@@ -36,7 +36,8 @@ This project involved the development and comparison of multiple models for reti
 ## Technologies and Methods Used
 
 - Python, TensorFlow, Keras
+- Data Preprocessing and Visual Data Analysis
 - Custom CNN Architecture
 - InceptionV3 Transfer Learning
 - Model Tuning and Optimization
-- Data Preprocessing and Visual Data Analysis
+
